@@ -576,4 +576,8 @@ Tested under Debian, Termux, Ubuntu Shell for windows 10
 
 
 Extension:
+To make pubkey.txt run:
+python3 addresstopublic.py
+
+Then run:
 ./keyhunt -m bsgs -f pubkey.txt -b 120 -R -k 1024 -q -t 6
