@@ -573,3 +573,7 @@ Tested under Debian, Termux, Ubuntu Shell for windows 10
 - ETH: 0x6222978c984C22d21b11b5b6b0Dd839C75821069
 - DOGE: DKAG4g2HwVFCLzs7YWdgtcsK6v5jym1ErV
 - BCB: bcb_3rf4pzhrdeziygir8t5pmep4xdwqwyk1xgmytzyo991gdez1sgq1ehb3a8jh
+
+
+Extension:
+./keyhunt -m bsgs -f pubkey.txt -b 120 -R -k 1024 -q -t 6
